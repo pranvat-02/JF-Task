@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="navbar">
+    <ul>
+      <li onclick="showHome()">Home</li>
+      <li onclick="showContact()">Contact</li>
+      <li onclick="showInfo()">Information</li>
+      <li onclick="showGuide()">Guide</li>
+    </ul>
+    <div id="toggle-button">
+        <img src="contract-left-fill.png" alt="Toggle Button Expanded" class="expanded-icon">
+        <img src="expand-right-fill.png" alt="Toggle Button Minimized" class="minimized-icon">
+      </div>
+  </div>
+  <div id="content">
+    <h1>Welcome</h1>
+  </div>
+  <div id="rcontent"></div>
+  <script src="script.js"></script>
+</body>
+</html>
